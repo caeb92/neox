@@ -1,6 +1,6 @@
 body{
     font-family: 'Roboto', sans-serif;
-    background-color: #F8F8F8;
+    background-color: #EEEEEE;
     margin-top: 55px;
 }
 _font-1{
@@ -13,23 +13,48 @@ _font-1{
     elevation: 2;
 }
 .jumbotron{
-    background: rgba(255, 255, 255, 0.8);
-    background-image: url("img/img-1.jpg");
+    background: #1E88E5;
+    color: #FFF;
+    height: 612px;
 }
 .navbar {
     font: 100% "Poppins", sans-serif;
     background-color: #FAFAFA;
 }
-
-.card{
-    padding-top: 16px;
+.navbar-toggler {
+    border: none;
+    outline: none;
+    font-size: 24px;
+  }
+.navbar-brand{
+    font-weight: bold;
 }
-.fa{
+.fa-phone{
+    margin-left: 24px;
+}
+.card{
+    padding-top:48px;
+}
+.icono-card{
     font-size: 128px;
+    color:#1E88E5;
 }
 #id-tarjetas{
     margin-bottom: 24px;
 }
 #id-texto{
     margin-top: 48px;
+}
+#id-footer{
+    -webkit-box-shadow: 0px -2px 10px -4px;
+    -moz-box-shadow: 0px -2px 10px -4px;
+    box-shadow: 0px -2px 10px -4px;
+    height: 200px;
+    background-color: #FFF;
+    margin-top: 128px;
+    padding-top: 24px;
+}
+#id-contacto{
+    margin-top: 128px;
+    margin-bottom: 64px;
 }
