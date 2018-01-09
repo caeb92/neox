@@ -3,7 +3,7 @@ body{
     background-color: #EEEEEE;
     margin-top: 55px;
 }
-_font-1{
+._font-1{
     font-family: 'Poppins', sans-serif;
 }
 ._shadow{
@@ -16,18 +16,22 @@ _font-1{
     background: #1E88E5;
     color: #FFF;
     height: 612px;
+    border-radius: 0px;
 }
 .navbar {
     font: 100% "Poppins", sans-serif;
     background-color: #FAFAFA;
 }
+.logo{
+    margin-right:12px;
+}
 .navbar-toggler {
     border: none;
     outline: none;
-    font-size: 24px;
   }
 .navbar-brand{
     font-weight: bold;
+    margin-right: 32px;
 }
 .fa-phone{
     margin-left: 24px;
@@ -49,7 +53,7 @@ _font-1{
     -webkit-box-shadow: 0px -2px 10px -4px;
     -moz-box-shadow: 0px -2px 10px -4px;
     box-shadow: 0px -2px 10px -4px;
-    height: 200px;
+    height: 256px;
     background-color: #FFF;
     margin-top: 128px;
     padding-top: 24px;
@@ -57,4 +61,18 @@ _font-1{
 #id-contacto{
     margin-top: 128px;
     margin-bottom: 64px;
+}
+
+/**/
+.cone-icon{
+    -webkit-animation-delay: 2s;
+    -webkit-animation-delay: 3s;
+    -webkit-animation-iteration-count: 1;
+  }
+
+  @media only screen and (max-width: 500px) {
+    #id-footer{
+
+        height: 490px;
+    }
 }
