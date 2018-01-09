@@ -7,9 +7,9 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 ._shadow{
-    -webkit-box-shadow: 0px 2px 10px -4px;
-    -moz-box-shadow: 0px 2px 10px -4px;
-    box-shadow: 0px 2px 10px -4px;
+    -webkit-box-shadow: 0px 3px 10px -4px;
+    -moz-box-shadow: 0px 3px 10px -4px;
+    box-shadow: 0px 3px 10px -4px;
     elevation: 2;
 }
 .jumbotron{
@@ -35,6 +35,8 @@ body{
 }
 .fa-phone{
     margin-left: 24px;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 1s;
 }
 .card{
     padding-top:48px;
